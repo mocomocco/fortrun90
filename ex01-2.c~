@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main(void){
+  float x,y1,y2;
+  printf("Give x:");
+  scanf("%f",&x);
+  y1=x*(sqrt(x*x+1)-x);
+  y2=x*(sqrt(x*x+1)+x);
+  printf("unchanged:%f",y1);
+  printf("modified:%f",y2);
+  return 0;
+
+}
